@@ -18,9 +18,9 @@ Or without cloning:
 Running
 =======
 
-> Usage: x-idle [milliseconds]
-> 
-> With no arguments, prints milliseconds idle.
-> 
-> With integer argument, returns 0 if user idle within
-> (argument) milliseconds; else 1.
+> `x-idle` [milliseconds]
+
+With no arguments, prints milliseconds idle.
+
+With integer argument, returns 0 if user idle within (argument) milliseconds;
+else 1.

@@ -1,13 +1,19 @@
 Installing
 ==========
 
-Requires libxss, a C compiler, and GNU make
+Requires libxss and a C compiler.
+
+Via make:
 
     make
 
 Or simply:
 
     cc -o x-idle -lXss main.c
+
+Or without cloning:
+
+    curl -s https://raw.github.com/strager/x-idle/master/main.c | cc -o x-idle -lXss -x c -
 
 Running
 =======
